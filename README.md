@@ -13,7 +13,6 @@ This project implements a Retrieval-Augmented Generation (RAG) system that enabl
 - **Product Filtering**: Filter by credit cards, personal loans, savings accounts, or money transfers
 - **Interactive UI**: Gradio-based chat interface with source document display
 - **Local LLM**: Uses Ollama for privacy-preserving, offline inference
-
 ## Project Structure
 
 ```
@@ -29,7 +28,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system that enabl
 │   └── 01_eda_preprocessing.ipynb  # EDA notebook
 ├── data/
 │   ├── raw/                    # Raw CFPB data (gitignored)
-│   └── filtered_complaints.csv # Preprocessed data
+│   └── filtered_complaints.csv # Preprocessed data structured
 ├── vector_store/               # FAISS index + metadata (gitignored)
 └── requirements.txt
 ```
